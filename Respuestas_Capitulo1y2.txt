@@ -133,6 +133,7 @@ servicios proporcionados por la red.
 Mejora la experiencia del usuario, la calidad de servicio garantiza una experiencia del usuario consistente y de alta 
 calidad para los servicios críticos, logrando así aumentar la satisfacción del usuario.
 
+
 ----------------------------------------------------------------CAPITULO 2-----------------------------------------------------------------------------
 
 1). Describir la estructura de una red, incluidos los dispositivos, medios y servicios necesarios para lograr comunicaciones exitosas. 
@@ -141,47 +142,65 @@ Los dispositivos en una red se pueden clasificar en dos categorías: los disposi
 Los dispositivos finales, también llamados host, son el origen o el destino de un mensaje transmitido a través de red; cada host se
 identifica con una dirección que ayuda a conocer el remitente y el receptor del mensaje. Los host  pueden funcionar como cliente, 
 como un servidor o como ambos. El software instalado en el host determina qué rol representa en la red.
+
 Los dispositivos intermedios proporcionan la conectividad necesaria y garantizan que los datos fluyan a través de la red. 
-Dispositivos como los de internetworking (routers) conectan los host individuales a la red y pueden conectar varias redes individuales para formar una internetwork.
-Los dispositivos intermedios también se encargan de administrar los datos mientras fluyen en la red por medio de la dirección host de destino, conjuntamente
-con información sobre las interconexiones de la red para determinar la ruta que deben tomar los mensajes a través de la red.
+Dispositivos como los de internetworking (routers) conectan los host individuales a la red y pueden conectar varias redes individuales 
+para formar una internetwork. Los dispositivos intermedios también se encargan de administrar los datos mientras fluyen en la red 
+por medio de la dirección host de destino, conjuntamente con información sobre las interconexiones de la red para determinar la ruta 
+que deben tomar los mensajes a través de la red.
 
-Toda comunicación viaja a través de un medio, desde el origen hasta su destino. En la comunicación por red ese medio puede ser hilos metálicos dentro de los cables, 
-cables de fibra óptica y transmisión inalámbrica. Los mensajes deben ser codificados según el medio por donde viaje el mensaje, pueden ser  impulsos eléctricos, 
-intervalos de luz visible ondas electromagnéticas respectivamente.
+Toda comunicación viaja a través de un medio, desde el origen hasta su destino. En la comunicación por red ese medio puede ser hilos 
+metálicos dentro de los cables, cables de fibra óptica y transmisión inalámbrica. Los mensajes deben ser codificados según el medio 
+por donde viaje el mensaje, pueden ser  impulsos eléctricos, intervalos de luz visible ondas electromagnéticas respectivamente.
 
-Los servicios y procesos son el software que se ejecuta en los dispositivos conectados a la red. los servicios de red proporcionan información en respuesta a una solicitud.
-Cuando se envía un correo electrónico, se solicitan servicios instalados en dispositivos(servidores). Mientras que los procesos proporcionan la funcionalidad que direcciona
-y traslada el mensaje a través de la red
+Los servicios y procesos son el software que se ejecuta en los dispositivos conectados a la red. los servicios de red proporcionan 
+información en respuesta a una solicitud. Cuando se envía un correo electrónico, se solicitan servicios instalados en dispositivos(servidores). 
+Mientras que los procesos proporcionan la funcionalidad que direcciona y traslada el mensaje a través de la red
+
 
 2).Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
 
-Las redes individuales que cubren una única área geográfica y proporcionan servicios y aplicaciones a personas dentro de una estructura organizacional común, como una empresa
-o un campus, se denominan LAN.El control administrativo que rige las políticas de seguridad y control de acceso está implementado en el nivel de red.
+Las redes individuales que cubren una única área geográfica y proporcionan servicios y aplicaciones a personas dentro de una estructura 
+organizacional común, como una empresa o un campus, se denominan LAN.El control administrativo que rige las políticas de seguridad y 
+control de acceso está implementado en el nivel de red.
 
-Las redes WAN conectan las LAN que se encuentran en ubicaciones geográficas separadas. Estas redes son suministradas por proveedores de servicio de comunicaciones (TSP),  
-estos proveedores operan grandes redes regionales que pueden abarcar largas distancias.
+Las redes WAN conectan las LAN que se encuentran en ubicaciones geográficas separadas. Estas redes son suministradas por proveedores de 
+servicio de comunicaciones (TSP), estos proveedores operan grandes redes regionales que pueden abarcar largas distancias.
 
-La internetworks es una malla global de redes interconectadas. La internetwork más conocida y ampliamente utilizada se llama Internet. La internet se crea por la interconexión
-de redes que pertenecen a los Proveedores de servicios de internet (ISP).
+La internetworks es una malla global de redes interconectadas. La internetwork más conocida y ampliamente utilizada se llama Internet. 
+La internet se crea por la interconexión de redes que pertenecen a los Proveedores de servicios de internet (ISP).
 
-La Intranet se refiere a conexiones privadas de algunas LAN  y WAN que pertenecen a una organización y que está diseñada para que pueda acceder solamente los miembros y 
-empleados de la organización u otros que tengan autorización.
+La Intranet se refiere a conexiones privadas de algunas LAN  y WAN que pertenecen a una organización y que está diseñada para que pueda 
+acceder solamente los miembros y empleados de la organización u otros que tengan autorización.
+
 
 3). ¿Cuál es la diferencia entre INTERNETWORK E INTERNET?
 
-La principal diferencia es el tipo de uso que tiene cada red, mientras que interwork conecta redes locales (por ejemplo, un red de área amplia WAN), la cual
-puede limitarse  para conectar entidades por ejemplo; Internet es una red global de computadoras interconectadas que tiene, cuyo objetivo es conectarse libremente a un red
-en la cual se pueden compartir datos de manera global.
+La principal diferencia es el tipo de uso que tiene cada red, mientras que interwork conecta redes locales (por ejemplo, un red de área amplia WAN), 
+la cual puede limitarse  para conectar entidades por ejemplo; Internet es una red global de computadoras interconectadas que tiene, cuyo 
+objetivo es conectarse libremente a un red en la cual se pueden compartir datos de manera global.
+
 
 4). Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
 
 La tarjeta de interfaz de red (NIC) proporciona la conexión física con la red en la computadora personal u otros dispositivos host. 
-
 Puerto físico es el conector o toma en un dispositivo de red, en el cual el medio se conecta con un host o con otro dispositivo de red
-
 Las interfaces de red son los puertos de un router, los cuales nos sirven para interconectar redes individuales.
 
 
+5). ¿Por qué se dice que un protocolo es independiente de la tecnología? 
+
+Debido a la gran variedad de dispositivos construidos por diferentes compañías, es necesario garantizar que a la hora de comunicación entre 
+diferentes dispositivos ambos sean capaces de entender el mensaje.
 
 
+6). Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
+
+Las unidades de datos de protocolo se utilizan para el intercambio de datos entre unidades dispersas, dentro de una del modelo OSI. 
+Existen dos clases que son: 
+
+    * PDU de datos, que contiene los datos del usuario principal(en el caso de la capa de aplicación) o la PDU del nivel 
+    inmediatamente inferior
+    
+    * PDU de control, que sirven para gobernar el comportamiento completo del protocolo en sus funciones de establecimiento y 
+    unión de la conexión, control de flujo, control de errores, etc. No contienen información alguna proveniente del nivel N+1.
