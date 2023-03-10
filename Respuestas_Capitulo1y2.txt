@@ -9,8 +9,35 @@ caso de la educación, donde se facilita el acceso a información, se crean nuev
 enseñanza y se rompen “barreras físicas” a la hora de interactuar en el proceso de aprendizaje y enseñanza.
 
 2). Listar las actividades cotidianas que realiza usted utilizando internet
-Trabajo remoto:
-1. Proyecto colaborativos de la universidad
-2. Llamadas por Whatsapp
-3. Plataformas educativas Platzi Duolingo
-4. Tiempo de ocio como juegos colaborativos (League of Legends) y series.
+
+1. Trabajo remoto
+2. Proyecto colaborativos de la universidad
+3. Llamadas por Whatsapp
+4. Plataformas educativas Platzi Duolingo
+5. Tiempo de ocio como juegos colaborativos (League of Legends) y series.
+6. Compras y pagos en línea
+7. Descarga de información y/o software
+8. Buscar información de interés
+9. Redes sociales y comunicarse
+
+3). Dar ejemplos de herramientas de comunicación que utiliza o ha utilizado
+
+1. Teams
+2. Jira
+3. Whatsapp
+4. Git/ Git Hub
+5. Telegram
+6. Instagram
+7. Tinder
+8. Gmail / correo electrónico
+9. Outlook
+10. Twitter
+
+4). Describir los factores que afectan la calidad de las comunicaciones.
+
+Los factores que pueden influir y/o afectar en que una comunicación sea exitosa
+se contemplan en externos e internos. Los factores externos están relacionados
+con la complejidad de la red y el número de dispositivos que debe atravesar 
+un mensaje para llegar al destino final. Mientras que los factores internos 
+están relacionados con la naturaleza del mensaje; el mensaje se ve afectado 
+dependiendo de la complejidad, el tamaño y la importancia
