@@ -204,3 +204,42 @@ Existen dos clases que son:
     
     * PDU de control, que sirven para gobernar el comportamiento completo del protocolo en sus funciones de establecimiento y 
     unión de la conexión, control de flujo, control de errores, etc. No contienen información alguna proveniente del nivel N+1.
+
+
+7). Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos
+
+Los protocolos definen los requerimientos e interacciones necesarias para que los dispositivos puedan comunicarse exitosamente. 
+Debido a que en los dispositivos coexisten diferentes protocolos (suite), a los datos de la aplicación varios protocolos le agregan 
+información en cada nivel, esto se conoce como proceso de encapsulamiento.
+
+
+8). Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+
+El modelo de protocolo proporciona un modelo que coincide fielmente con la estructura de una suite de protocolo en particular. 
+El conjunto jerárquico de protocolos relacionados en una suite representa típicamente toda la funcionalidad requerida para interconectar 
+la red humana con la red de datos.
+
+Un modelo de referencia proporciona una referencia común para mantener consistencia en todos los tipos de protocolos y servicios de red. 
+El propósito principal de un modelo de referencia es asistir a la comprensión clara de las funciones y los procesos involucrados.
+
+
+9). Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+
+TCP/IP:
+    *   Aplicación:  representa datos para el usuario más el control de codificación y de diálogo.
+    *   Transporte: Admite la comunicación entre distintos dispositivos de distintas redes
+    *   Internet: Determina la mejor ruta a través de la red.	
+    *   Acceso a la red:  controla los dispositivos del hardware y los medios que forman la red.
+		
+OSI:
+    *   Aplicación:  APIs de alto nivel, como compartir recursos y acceso remoto a archivos
+    *   Presentación: Traducción de datos entre el servicio de red y una aplicación, que incluye la codificación de caracteres, la comprensión 
+        de datos y el cifrado y descifrado de datos.
+    *   Sesión: Manejo de sesiones de comunicación, por ejemplo el continuo intercambio de información en formas de múltiples transmisiones hacia 
+        ambos lados entre dos nodos.
+    * Transporte: Transmisión de segmentos de datos confiable entre puntos de red, incluyendo la segmentación, el reconocimiento y la 
+        multiplexación
+    *   Red: Estructura y manejo de una red multinodo. Incluye el direccionamiento, el ruteo u el control de tráfico. 
+    *   Enlace de datos: Transmisión de datos confiable entre dos nodos conectados mediante una capa física.
+    *   Física:  Transmisión y recepción de flujos de bits sin procesar por un medio físico.
+
