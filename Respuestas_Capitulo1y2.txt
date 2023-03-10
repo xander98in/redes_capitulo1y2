@@ -41,3 +41,45 @@ con la complejidad de la red y el número de dispositivos que debe atravesar
 un mensaje para llegar al destino final. Mientras que los factores internos 
 están relacionados con la naturaleza del mensaje; el mensaje se ve afectado 
 dependiendo de la complejidad, el tamaño y la importancia
+
+
+
+5). Identificar los componentes clave de cualquier red de datos y describir su funcionamiento.
+
+Los componentes claves de una red son: mensajes, dispositivos, reglas, medios y servicios. 
+El mensaje, independientemente de su contenido, debe ser convertido a un formato que pueda ser transmitido por red, 
+en este caso en señales digitales codificadas en binario; cuando el mensaje llega al receptor es decodificado para entender su contenido.
+Los dispositivos son necesarios para generar, recibir y direccionar los mensajes; como por ejemplo los teléfonos (para enviar y recibir información) y los router, 
+siendo el router indispensable para que el mensaje llegue a su destino de la manera más rápida y eficaz.
+El medio es por donde el mensaje va a viajar entre dispositivos, puede ser por medio de cables o de forma inalámbrica. 
+Los servicios son programas que respaldan la red humana, pueden encontrarse en servidores (dispositivos), para facilitar 
+la comunicación en línea. Las reglas especifican la forma en que deben se envían los mensajes, cómo se direccionan a través de la red y
+cómo se interpretan en los dispositivos en los destinos; las reglas deben ser construidas independiente del dispositivo.
+
+6). Responda brevemente, ¿Qué son los datos? ¿Qué es una red de datos? ¿Qué es una red convergente?
+
+Los datos son aquella información que queremos transmitir, ya sea por texto, audio, video, etc. 
+Las redes de datos establecen la conexión entre varios dispositivos, esto con la ayuda de cables, señales, routers, switches, servidores, computadoras, etc.
+Una red convergente se puede entender como aquel canal donde confluyen múltiples redes, independientemente de los datos que estas redes transmitan. 
+Esta convergencia se debe en gran medida a la utilización de protocolos en común.
+
+7).Describir las características de las arquitecturas de red: Tolerante a fallas, escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos ejemplos.
+  Las redes tolerantes a fallos deben poder responder rápidamente a cualquier falla presente en el software o hardware de la arquitectura de red. Para poder
+
+responder efectivamente ante un fallo, debe haber redundantes rutas entre el origen y el destino del mensaje, así si una ruta falla se puede enrutar 
+rápidamente en un enlace diferente.
+
+Una red escalable puede expandirse rápidamente para admitir nuevos usuarios y aplicaciones sin afectar el rendimiento del servicio enviado a los usuarios. Cuando 
+nuevos usuarios y proveedores se conectan a internet, la red debe admitir estas nuevas interconexiones sin causar disrupción en toda la red.
+
+Debido a que las nuevas aplicaciones disponibles para los usuarios en internetworks crean expectativas mayores para la calidad de los servicios enviados, para ello
+es necesario que la redes sepan discriminar entre tipos de mensajes y su importancia.
+
+La seguridad es fundamental para mantener la confidencialidad de los mensajes en una red de amplio acceso. Esta seguridad es manejada en los dispositivos por 
+medio de autorizaciones acceso por medio de hardware y software. 
+
+
+
+
+
+
